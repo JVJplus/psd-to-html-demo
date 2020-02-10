@@ -5,7 +5,7 @@
  
 nav{
   height:10vh;
-  width:100vw;
+  width:100%;
   background-color: #464646;
   color: white;
 }
@@ -20,11 +20,16 @@ nav ul{
   text-decoration: none;
   text-align: center;
 }
+nav a{
+  color: white;
+  text-decoration: none;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
+}
 
 #top_container{
   display: block;
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   /* border:2px solid red; */
   background-image: url("mountain.jpg");
   background-size: 100% 100%;
@@ -35,11 +40,11 @@ nav ul{
 #top_container span{
   color: white;
   font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: arial;
   display: inline-block;
   margin-top: 10%;
   font-weight: bold;
-  /* Add Text-shadow */
+   text-shadow: 1px 1px 10px #000;
 }
 
 .view_my_works_btn{
@@ -53,7 +58,7 @@ nav ul{
 }
 
 .categories_container{
-  width: 100vw;
+  width: 100%;
   height: 80vh;
   background-color: #8b8b8b;
 }
@@ -61,11 +66,15 @@ nav ul{
 .circle_catg{
   border-radius: 50%;
   width: 25%;
-  height: 70%;
+  height: 65%;
   background-color: red;
   display: inline-block;
   margin-left:6%;
   margin-top: 30px;
+}
+
+.circle_catg a{
+  text-decoration: none;
 }
 
 .wedding_container{
@@ -87,13 +96,22 @@ nav ul{
   color: white;
   font-size: 50px;
   margin-left: 40%;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 .categories_container p{
   color: white;
   font-size: 14px;
   padding: 3%;
-  padding-top: 0;
+  padding-top: 0;font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
+}
+
+.inside_circle_text{
+  text-align: center;
+  margin-top: 50%;
+  font-size: 40px;
+  color: #35a48e;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 .about-us-image{
@@ -113,6 +131,7 @@ nav ul{
   box-sizing: border-box;
   width: 50%;
   padding: 10px;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 
@@ -151,6 +170,7 @@ nav ul{
 .contact-us-container span{
   font-size: 50px;
   margin-left: 20%;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 .contact-us-container p{
@@ -158,12 +178,14 @@ nav ul{
   margin-left: 20%;
   padding-top: 5%;
   padding-right: 25%;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 .feedback-details{
   margin-top: 20%;
   color: white;
   font-size: 25px;
+  font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
 .feedback-container{
@@ -183,7 +205,7 @@ nav ul{
 
 .footer{
   height: 50vh;
-  width: 100vw;
+  width: 100%;
   background-color: white;
   display: block;
 }
